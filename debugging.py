@@ -1,7 +1,7 @@
 def show_inventory(inventory):
     print("\nCurrent Inventory:")
     # ¿Es esta la forma correcta de iterar sobre el diccionario?
-    for fruit, stock in inventory:
+    for fruit, stock in inventory.items():
         print(f"{fruit}: {stock}")
     print()
 
@@ -18,7 +18,7 @@ def add_fruit(inventory):
 def update_stock(inventory):
     fruit = input("Enter the name of the fruit to update: ").strip()
     # ¿Es esta la forma correcta de iterar sobre el diccionario?
-    if fruit in inventory.keys():
+    if fruit in inventory:
         amount = input(f"Enter amount to add to {fruit}'s stock: ")
         # ¿Es esta operación válida?
         inventory[fruit] += int(amount)
