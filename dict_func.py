@@ -5,5 +5,6 @@ employee_info = {"Name": "Juan",
 def employee_print():
     for key, value in employee_info.items():
         print(f"{key}: {value}")
-        print("No other info!")
+    after_print = "No other info!"
+    print(after_print)
 employee_print()
