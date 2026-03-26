@@ -4,10 +4,10 @@
 data = {"temp": 22.5,
         "color": "blue",
         }
-def temp_and_color(values):
-    if not isinstance(values, dict):
+def temp_and_color(data):
+    if not isinstance(data, dict):
         return None, None
-    if "color" not in values or "temp" not in values:
+    if "color" not in data or "temp" not in data:
         return None, None
-    return values.get("temp"), values.get("color")
+    return data.get("temp"), data.get("color")
 print(temp_and_color(data))
