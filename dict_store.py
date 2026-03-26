@@ -3,12 +3,12 @@
 
 data = {"temp": 22.5,
         "color": "blue",
-        "status": "ok"
         }
 def temp_and_color(values):
+    if "temp" in data and "color" in data:
+
+        return data.get("temp"), data.get("color")
     if "temp" not in data and "color" not in data:
-          return None
+        return None, None
 
-    return data.get("temp"), data.get("color")
-
-print(temp_and_color(data.values()))
+print(temp_and_color(data))
