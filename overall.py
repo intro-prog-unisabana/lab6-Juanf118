@@ -1,4 +1,4 @@
-my_dict = {
+students = {
     "student_id1":{"assignment1":100, "assignment2":90, "assignment3":80},
     "student_id2":{"assignment1":60, "assignment2":80, "assignment3":70},
     "student_id3":{"assignment1":80, "assignment2":90, "assignment3":60}}
@@ -8,12 +8,12 @@ def student_averages(my_dict):
         average = sum(assignments.values()) / len(assignments)
         averages[student_id] = int(average)
     return averages
-print(student_averages(my_dict))
+print(student_averages(students))
 
-def assignments_average(my_dict):
+def assignment_averages(students):
     assignment_totals = {}
     assignment_prom = {}
-    for student_id, assignments in my_dict.items():
+    for student_id, assignments in students.items():
         for assignment, score in assignments.items():
             if assignment not in assignment_totals:
                 assignment_totals[assignment] = 0
@@ -22,4 +22,4 @@ def assignments_average(my_dict):
             assignment_prom[assignment] += 1
     averages = {assignment: int(assignment_totals[assignment] / assignment_prom[assignment]) for assignment in assignment_totals}
     return averages
-print(assignments_average(my_dict))
+print(assignment_averages(students))
