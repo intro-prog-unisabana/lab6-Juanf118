@@ -1,7 +1,7 @@
 students = {
     "s1":{"assignment1":100, "assignment2":60, "assignment3":80},
     "s2":{"assignment1":60, "assignment2":80, "assignment3":70},
-    "s3":{"assignment1":70, "assignment2":90, "assignment3":60}}
+    "s3":{"assignment1":70, "assignment2":80, "assignment3":60}}
 
 def student_averages(my_dict):
     averages = {}
