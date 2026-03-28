@@ -7,7 +7,7 @@ def student_averages(students):
     averages = {}
     for student_id, assignments in students.items():
         average = sum(assignments.values()) / len(assignments)
-        averages[student_id] = int(average)
+        averages[student_id] = round(average)
     return averages
 print(student_averages(students))
 
