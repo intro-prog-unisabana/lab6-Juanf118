@@ -11,16 +11,16 @@ def student_averages(students):
     return averages
 print(student_averages(students))
 
-#def assignment_averages(students):
-    #assignment_totals = {}
-    #assignment_prom = {}
-    #for student_id, assignments in students.items():
-        #for assignment, score in assignments.items():
-            #if assignment not in assignment_totals:
-                #assignment_totals[assignment] = 0
-                #assignment_prom[assignment] = 0
-            #assignment_totals[assignment] += score
-            #assignment_prom[assignment] += 1
-    #averages = {assignment: (assignment_totals[assignment] / assignment_prom[assignment]) for assignment in assignment_totals}
-    #return {assignment: round(avg) for assignment, avg in averages.items()}
-#print(assignment_averages(students))
+def assignment_averages(students):
+    assignment_totals = {}
+    assignment_prom = {}
+    for student_id, assignments in students.items():
+        for assignment, score in assignments.items():
+            if assignment not in assignment_totals:
+                assignment_totals[assignment] = 0
+                assignment_prom[assignment] = 0
+            assignment_totals[assignment] += score
+            assignment_prom[assignment] += 1
+    averages = {assignment: (assignment_totals[assignment] / assignment_prom[assignment]) for assignment in assignment_totals}
+    return {assignment: round(avg) for assignment, avg in averages.items()}
+print(assignment_averages(students))
