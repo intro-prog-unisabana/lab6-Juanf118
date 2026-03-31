@@ -24,8 +24,7 @@ Estuvo muy chévere trabajar con diccionarios y funciones
  *  Proporciona el enlace de tu perfil de GitHub (ej. https://github.com/afbeltranp)
  ******************************************************************************/
 
-[escribe el enlace aquí]
-https://github.com/Juanf118
+[https://github.com/Juanf118]
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -36,6 +35,6 @@ https://github.com/Juanf118
  *      con las regulaciones de la Universidad.  /s/ Ada Lovelace
  ******************************************************************************/
 
-[escribe y firma la declaración aquí]
-Esta tarea de programación representa mi propio trabajo de acuerdo
-con las regulaciones de la Universidad. /s/ Juan Francisco Rojas Suárez
+[Esta tarea de programación representa mi propio trabajo de acuerdo
+con las regulaciones de la Universidad. /s/ Juan Francisco Rojas Suárez]
+
