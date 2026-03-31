@@ -3,7 +3,7 @@ Lab 6
 /****************************************************************************
 * Número aproximado de horas para completar esta tarea
 ******************************************************************************/
-Número de horas:
+Número de horas: 15
 
 
 /****************************************************************************
@@ -11,12 +11,13 @@ Número de horas:
 ******************************************************************************/
 
 ¿Sí o no?
+no
 
 
 /****************************************************************************
 * Escribe cualquier otro comentario aquí.
 ******************************************************************************/
-
+Estuvo muy chévere trabajar con diccionarios y funciones
 
 
 /****************************************************************************
@@ -24,6 +25,7 @@ Número de horas:
  ******************************************************************************/
 
 [escribe el enlace aquí]
+https://github.com/Juanf118
 
 /****************************************************************************
  *  Escribe y firma el siguiente reconocimiento estudiantil de trabajo original.
@@ -35,3 +37,5 @@ Número de horas:
  ******************************************************************************/
 
 [escribe y firma la declaración aquí]
+Esta tarea de programación representa mi propio trabajo de acuerdo
+con las regulaciones de la Universidad. /s/ Juan Francisco Rojas Suárez
