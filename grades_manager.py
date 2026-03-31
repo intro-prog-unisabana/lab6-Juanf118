@@ -15,7 +15,6 @@ def add_student(student_grades=None):
         if entry.lower() == 'exit':
             break
         
-        # Separamos por coma: "Math,95" -> ["Math", "95"]
         parts = entry.split(',')
         subject = parts[0].strip().title()
         grade = float(parts[1].strip())

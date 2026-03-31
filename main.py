@@ -2,7 +2,6 @@ import grades_manager
 
 def main():
     print("Welcome to the Student Grades Manager!")
-    # Diccionario persistente durante la ejecución
     my_grades = {}
 
     while True:
@@ -14,7 +13,6 @@ def main():
         choice = input()
 
         if choice == '1':
-            # Actualizamos el diccionario con el retorno de la función
             my_grades = grades_manager.add_student(my_grades)
         
         elif choice == '2':
@@ -27,7 +25,6 @@ def main():
                 grades_manager.avg_by_student(my_grades)
             elif sub_choice == 'b':
                 names_raw = input("Enter student names (comma-separated):\n")
-                # Convertimos la cadena "Alice, Bob" en una lista ["Alice", "Bob"]
                 names_list = [n.strip() for n in names_raw.split(',')]
                 grades_manager.avg_by_student(my_grades, names_list)
             else:
